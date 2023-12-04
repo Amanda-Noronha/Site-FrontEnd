@@ -18,19 +18,16 @@ body{
 .logo {
     width: 80px; 
     height: 80px;
-    margin-left: 10px;
-    margin-top: 10px;
 }
 .titulo-fofo{
     display: inline-block;
-    padding-left: 50px;
+    text-align: center;
+    padding: 42px 44px;
     margin: 150px 0 0 100px;
     background-color: #68828b;
     box-shadow: 10px 10px 0px #add8e6;
-    width: 400px;
-    height: 150px;
 }
-.botao{
+.botao{ 
     margin-left: 70px;
 }
 .button{
@@ -45,11 +42,9 @@ body{
 li{
     display: inline-flex;
     list-style: none;
-    margin-right: 30px;
 }
 
 .logo-insta {
-    display: inline-block; 
     width: 40px;
     height: 40px;
   }
@@ -57,7 +52,9 @@ a.botao-insta{
     content: "";
     width: 10px;
     height: 10px;
-    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    margin: 0px;
 }
 a::before{ /*Pseudo elemento*/
     content: "";
@@ -69,6 +66,9 @@ a::before{ /*Pseudo elemento*/
 
 h2, h3 {
     font-family: 'Fira code';
+}
+#box h2{
+    margin-bottom: 28px;
 }
 a{
     display: inline-flex;
@@ -93,9 +93,17 @@ nav{
     background-color: #68828b;
     height: 60px;
     line-height: 60px;
+    box-shadow: 5px 5px 0px #FFF;
+
+}
+
+.button:hover{
+    display: inline-block;
+    background-color: #68828b;
+    height: 60px;
+    line-height: 60px;
     padding: 0px 20px;
     box-shadow: 5px 5px 0px #FFF;
-    margin-right: 50px;
 }
 
 #button{
@@ -110,11 +118,11 @@ nav{
 
 footer{
     display: flex;
-    justify-content: space-between;
-    background-color: #add8e6;
     justify-content: center;
-    margin-top: 1000px;
-    padding: 10px 20px;
+    text-align: center;
+    background-color: #add8e6;
+    width: 100%;
+    bottom: 0;
 }
 .subtitulo{
     margin-top: 200px;
@@ -122,7 +130,7 @@ footer{
     box-shadow:0 10px 0 black;
     height: 50px;
 }
-.parte2{
-    background-color: #add8e6;  
-}
 
+#parte2{
+    margin-top: 50px;
+}
