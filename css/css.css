@@ -5,40 +5,10 @@ body{
     height: 100%;
     margin: 0;
 }
-.logo {
-    width: 80px; 
-    height: 80px;
-}
+
 li{
     display: inline-flex;
     list-style: none;
-}
-
-.logo-insta {
-    width: 40px;
-    height: 40px;
-  }
-a.botao-insta{
-    content: "";
-    width: 10px;
-    height: 10px;
-    width: 40px;
-    height: 40px;
-    margin: 0px;
-}
-
-h2, h3 {
-    font-family: 'Fira code';
-}
-#box h2{
-    margin-bottom: 28px;
-}
-
-
-nav{
-    text-align: right;
-    position: sticky;
-    top: 0;
 }
 
 .subtitulo{
