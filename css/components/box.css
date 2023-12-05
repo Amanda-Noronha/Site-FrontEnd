@@ -1,10 +1,9 @@
 .box{
-    display: inline-block;
-    text-align: center;
-    padding: 42px 44px;
-    margin: 150px 0 0 100px;
     background-color: #68828b;
+    width: 630px;   
     box-shadow: 10px 10px 0px #add8e6;
+    text-align: center;
+    padding: 42px 0px;
 }
 .box h2{
     margin-bottom: 28px;
