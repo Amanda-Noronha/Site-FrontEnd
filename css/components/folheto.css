@@ -1,0 +1,16 @@
+.folheto{
+    display: flex;
+    background-color: pink;
+    justify-content: center; /*alinhar na horizontal*/
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 0px #fff;
+}
+
+.folheto.-second{
+    background-color: blue;
+}
+.folheto.-third{
+    background-color: blueviolet;
+}
